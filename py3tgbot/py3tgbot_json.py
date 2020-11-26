@@ -1,6 +1,6 @@
 from aiohttp import ClientSession, ClientResponse
 
-class Py3TgBot:
+class Py3TgBotJson:
     def __init__(self, token: str = None):
         assert token and token != ""
         self.token = token
