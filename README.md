@@ -23,7 +23,7 @@ client_tgbot = Py3TgBotJson(token=TGBOT_TOKEN)
 
 
 async def main_async():
-    response = await app.client_tgbot.setWebhook("https://{hostname}/tgbot/wh".format(hostname=APP_HOSTNAME))
+    response = await app.client_tgbot.setWebhook("{hostname}/tgbot/wh".format(hostname=APP_HOSTNAME))
     r = await response.json()
     print(r)
 
@@ -31,12 +31,16 @@ async def main_async():
     r = await response.json()
     print(r)
 
+
+if __name__ == "__main__":
+    asyncio.run_until_complete(main_async())
+
 ```
 
 
 
 ### Docs
-1. Howto publish pypi package [https://medium.com/nuances-of-programming/python-%D0%BF%D1%83%D0%B1%D0%BB%D0%B8%D0%BA%D0%B0%D1%86%D0%B8%D1%8F-%D0%B2%D0%B0%D1%88%D0%B8%D1%85-%D0%BF%D0%B0%D0%BA%D0%B5%D1%82%D0%BE%D0%B2-%D0%B2-pypi-11dd3216581c](read medium)
+1. How to publish pypi package [Medium article in Russian](https://medium.com/nuances-of-programming/python-%D0%BF%D1%83%D0%B1%D0%BB%D0%B8%D0%BA%D0%B0%D1%86%D0%B8%D1%8F-%D0%B2%D0%B0%D1%88%D0%B8%D1%85-%D0%BF%D0%B0%D0%BA%D0%B5%D1%82%D0%BE%D0%B2-%D0%B2-pypi-11dd3216581c)
 
 
 
