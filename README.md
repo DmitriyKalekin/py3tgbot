@@ -12,14 +12,14 @@ pip3 install py3tgbot
 ## Usage
 ```python
 import asyncio
-from py3tgbot import Py3TgBotJson
+from py3tgbot import TgBotJson
 
 
 TGBOT_TOKEN = "12345:YOUR_TOKEN"
 APP_HOSTNAME = "https://YOUR_HOSTNAME.ngrok.io"
 CHAT_ID = 123456789  # your chat id
 
-client_tgbot = Py3TgBotJson(token=TGBOT_TOKEN)
+client_tgbot = TgBotJson(token=TGBOT_TOKEN)
 
 
 async def main_async():
