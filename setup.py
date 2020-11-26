@@ -8,7 +8,7 @@ requirements = ["aiohttp>=3.6.2"]
 
 setuptools.setup(
 	name="py3tgbot",
-	version="0.0.5",
+	version="0.0.6",
 	author="Dmitriy Kalekin",
 	author_email="herrhorror@gmail.com",
 	description="Simple async python 3 telegram bot using fast aiohttp requests",
