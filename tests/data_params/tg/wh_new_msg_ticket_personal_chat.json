@@ -1,0 +1,23 @@
+{
+ "update_id": 12210566,
+ "message": {
+   "message_id": 780,
+   "from": {
+     "id": 435627225,
+     "is_bot": false,
+     "first_name": "Дмитрий",
+     "last_name": "Калекин",
+     "username": "herr_horror",
+     "language_code": "en"
+   },
+   "chat": {
+     "id": 435627225,
+     "first_name": "Дмитрий",
+     "last_name": "Калекин",
+     "username": "herr_horror",
+     "type": "private"
+   },
+   "date": 1603640318,
+   "text": "тикет из персонального чата"
+ }
+}
