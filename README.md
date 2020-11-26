@@ -2,15 +2,15 @@
 Simple async python 3 telegram bot using fast aiohttp requests
 
 View at:
-https://test.pypi.org/project/py3tgbot/0.0.3/
+https://test.pypi.org/project/py3tgbot
 
 ## How to install
-```
+```bash
 pip3 install py3tgbot  
 ```
 
 ## Usage
-```
+```python
 import asyncio
 from py3tgbot import Py3TgBotJson
 

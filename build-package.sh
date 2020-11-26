@@ -1,3 +1,4 @@
+# !/usr/bin/bash
 # rm -rf build
 # rm -rf dist
 # rm -rf py3tgbot.egg-info
